@@ -1,4 +1,4 @@
-package com.soft1841.pra.FIVE;
+package com.soft1841.pra.one;
 
 import java.util.Scanner;
 

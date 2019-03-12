@@ -1,6 +1,6 @@
-package com.soft1841.pra.four;
+package com.soft1841.pra.one;
 
-public class FLY  implements Move,Sing{
+public class FLY  implements Move, Sing {
     @Override
     public String move() {
         return "可移动";

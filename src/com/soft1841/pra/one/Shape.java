@@ -1,4 +1,4 @@
-package com.soft1841.pra.three;
+package com.soft1841.pra.one;
 
 public abstract class Shape {
     public double radius;

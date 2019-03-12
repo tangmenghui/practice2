@@ -1,4 +1,4 @@
-package com.soft1841.pra.three;
+package com.soft1841.pra.one;
 
 /**
  * 计算矩形和圆的面积
