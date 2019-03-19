@@ -18,9 +18,9 @@ public class ListBookTest {
         list.set(2,new Book(7,"高职英语",25.13));
         System.out.println(list);
         System.out.println(list.get(1));
-        list.add(new Book(8,"数据库技术及应用",10.12));
+        list.add(new Book(8,"传统文化与沟通交流",10.12));
         System.out.println(list);
-        System.out.println(list.indexOf("数据库技术及应用"));
-        System.out.println(list.lastIndexOf("数据库技术及应用"));
+        System.out.println(list.indexOf("传统文化与沟通交流"));
+        System.out.println(list.lastIndexOf("传统文化与沟通交流"));
     }
 }
