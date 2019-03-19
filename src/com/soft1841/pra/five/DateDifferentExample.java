@@ -35,15 +35,15 @@ public class DateDifferentExample {
         }
         long seconds = diff / 1000;
         long minutes = seconds / 60;
-        long hours = minutes / 60;
-        long days = hours / 24;
-        if (seconds < 60) {
-            return "刚刚";
-        } else if (minutes < 60) {
-            return minutes + "分钟前";
-        } else if (hours < 24) {
-            return hours + "小时前";
-        } else {
+            long hours = minutes / 60;
+            long days = hours / 24;
+            if (seconds < 60) {
+                return "刚刚";
+            } else if (minutes < 60) {
+                return minutes + "分钟前";
+            } else if (hours < 24) {
+                return hours + "小时前";
+            } else {
             return days + "天前";
         }
     }
