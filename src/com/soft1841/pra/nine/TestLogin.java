@@ -8,7 +8,7 @@ public class TestLogin extends JFrame {
     private JLabel lblImage;
     public  TestLogin(){
         init();
-        setTitle("模拟交通信号灯");
+        setTitle("交通信号灯");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(600,500);
         setLocationRelativeTo(null);
